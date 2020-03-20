@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Konrad Gmur - Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap&subset=latin-ext"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/css/animate.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" media='screen and (min-width: 576px)' href="css/small.css">
+    <link rel="stylesheet" media='screen and (min-width: 768px)' href="css/medium.css">
+    <link rel="stylesheet" media='screen and (min-width: 992px)' href="css/large.css">
+
+
+</head>
+
+<body data-spy="scroll" data-target="#navbar">
+
+    <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
+
+        <a class="navbar-brand" href="#"><i class="fas fa-mouse"></i> Konrad Gmur<span class="blue-text">Portfolio</span></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto">
+                <a class="nav-item nav-link active" href="#home"><i class="fas fa-home"></i></a>
+                <a class="nav-item nav-link" href="#aboutme">o mnie</a>
+                <a class="nav-item nav-link" href="#portfolio">portfolio</a>
+                <a class="nav-item nav-link" href="#skills">umiejętności</a>
+                <a class="nav-item nav-link" href="#contact">kontakt</a>
+            </div>
+        </div>
+
+    </nav>
+    <header id="home">
+        <div class="hero-img">
+            <div class="hero-shadow"></div>
+            <div class="hero-text">
+                <h1 class="os-animation" data-animation='bounceInUp' data-delay='.2s'>Witajcie na mojej stronie internetowej</h1>
+                <a class="btn btn-outline-light os-animation" href='#aboutme' data-animation='bounceInUp'data-delay='.8s'>poznaj mnie!</a>
+            </div>
+            <a href="#aboutme"><i class="fas fa-chevron-down"></i> </a>
+        </div>
+    </header>
+    <main>
+        <section id="aboutme" class="scroll-fix">
+            <div class="jumbotron jumbotron-fluid">
+                <div class="wrapper">
+                    <h2>o mnie</h2>
+                    <div class="underline"></div>
+
+                    <div class="row">
+                        <div class="col-sm-6 col-md-6 text-center os-animation visibility" data-animation='bounceIn' data-delay='.1s'>
+                            <div class="description">Witam, Nazywam się Konrad i mieszkam oraz pracuję w Warszawie. Obecnie szukam pracy jako junior frontend developer. Pasję do komputerów odkryłem w sobie w momencie gdy jako ośmiolatek złożyłem swój pierwszy komputer. Od tego czasu codziennie staram się uczyć oraz korzystać z wiedzy doświadczonych kolegów. Każdy kolejny projekt staram się skroić sticte pod klineta. Obecnie jestem otwarty na nowe wyzwania ponieważ zależy mi na dalszym rozwoju.</div>
+                            <p><a href="https://github.com/KonradGmur"><i class="fab fa-github"></i></a><a href="https://www.linkedin.com/in/konrad-gmur-717168155/"><i class="fab fa-linkedin"></i></a></p>
+                        </div> 
+                        <div class="col-sm-6 col-md-6 text-center aboutus-hover os-animation visibility" data-animation='bounceIn' data-delay='.1s'>
+                            <div class="photo"><img src="img/me.jpg" alt="Moje Zdjęcie"></div>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="portfolio" class="scroll-fix">
+            <div class="jumbotron jumbotron-fluid">
+                <h2 class="os-animation visibility" data-animation="fadeIn">portfolio</h2>
+                <div class="underline os-animation visibility" data-animation="fadeIn" data-delay=".1s"></div>
+
+                <!-- Portfolio mobile -->
+                <div class="wrapper os-animation visibility" data-animation="fadeIn" data-delay=".4s">
+                    <div class="card-deck d-lg-none">
+                        <div class="card">
+                           <a href="https://konradgmur.github.io/Star-Wars-Game/" target="_blank"></a><img src="/img/page3.jpg" class="card-img-top" alt="Star Wars gra karciana ćwicząca pamięć"></a>
+                            <div class="card-body">
+                                <h5 class="card-title"><strong>Star Wars Game</strong></h5>
+                                <p class="card-text">Gra karciana ćwicząca pamięć!</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                           <a href="https://konradgmur.github.io/Beautiful-Polish-cities/"target="_blank"><img src="/img/page4.jpg" class="card-img-top" alt="Strona poświęcona najpiękniejszym Polskim miastom"></a> 
+                            <div class="card-body">
+                                <h5 class="card-title"><strong>Najpiękniejsze miasta w Polsce</strong></h5>
+                                <p class="card-text">Wejdz i poznaj historię najpiękniejszych Polskich miast</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Portfolio desktop -->
+                    <div id="carouselExampleCaptions" class="carousel slide d-none d-lg-block" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                        </ol>
+                        <div class="carousel-inner">
+
+                            <div class="carousel-item active">
+                               <a href="https://konradgmur.github.io/Star-Wars-Game/"target="_blank"><img src="/img/page3.jpg" class="d-block w-100" alt="Star Wars gra karciana ćwicząca pamięć"></a> 
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5><strong>Star Wars Game</strong></h5>
+                                    <p>Gra karciana ćwicząca pamięć!</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                               <a href="https://konradgmur.github.io/Beautiful-Polish-cities/"target="_blank"><img src="/img/page4.jpg" class="d-block w-100" alt="Strona poświęcona najpiękniejszym Polskim miastom"></a> 
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5><strong>Najpiękniejsze miasta w Polsce</strong></h5>
+                                    <p>Wejdz i poznaj historię najpiękniejszych Polskich miast!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button"
+                            data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button"
+                            data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="scroll-fix">
+            <div class="jumbotron jumbotron-fluid">
+                <h2 class="os-animation visibility" data-animation="fadeIn">umiejętności</h2>
+                <div class="underline os-animation visibility" data-animation="fadeIn" data-delay=".1s"></div>
+
+                <div class="wrapper row achievement-list">
+
+                    <div class="col-md-6 col-lg-4 col-xl-3 achievement os-animation visibility"
+                        data-animation="bounceIn" data-delay=".2s">
+                        <i class="fab fa-html5"></i>
+                        <p class="achievement-number">HTML5</p>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 achievement os-animation visibility"
+                    data-animation="bounceIn" data-delay=".2s">
+                    <i class="fab fa-css3-alt"></i>
+                    <p class="achievement-number">CSS</p>
+                </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 achievement os-animation visibility"
+                        data-animation="bounceIn" data-delay=".4s">
+                        <i class="fab fa-sass"></i>
+                        <p class="achievement-number">SASS</p>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 achievement os-animation visibility"
+                        data-animation="bounceIn" data-delay=".4s">
+                        <i class="fab fa-less"></i>
+                        <p class="achievement-number">LESS</p>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 achievement os-animation visibility"
+                        data-animation="bounceIn" data-delay=".35s">
+                        <i class="fab fa-js"></i>
+                        <p class="achievement-number">JS ES6</p>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 achievement os-animation visibility"
+                    data-animation="bounceIn" data-delay=".1s">
+                    <i class="fab fa-git"></i>
+                    <p class="achievement-number">GIT</p>
+                </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 achievement os-animation visibility"
+                        data-animation="bounceIn" data-delay=".25s">
+                        <i class="fab fa-bootstrap"></i>
+                        <p class="achievement-number">Bootstrap</p>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 achievement os-animation visibility"
+                        data-animation="bounceIn" data-delay=".3s">
+                        <i class="fab fa-angular"></i>
+                        <p class="achievement-number">Angular</p>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 achievement os-animation visibility"
+                        data-animation="bounceIn" data-delay=".3s">
+                        <i class="fab fa-python"></i>
+                        <p class="achievement-number">Python</p>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 achievement os-animation visibility"
+                        data-animation="bounceIn" data-delay=".3s">
+                        <i class="fas fa-scroll"></i>
+                        <p class="achievement-number">RWD</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="scroll-fix">
+            <div class="jumbotron jumbotron-fluid">
+                <div class="contact-shadow"></div>
+                <h2>kontakt</h2>
+                <div class="underline"></div>
+                <div class="wrapper text-center contact-us">
+                    <div class="contact-item col-sm-12 col-lg-12">
+                        <p>Telefon: 511066622</p>
+                        <p>E-mail: konrad.gmur@gmail.com</p>
+                        <div class="social-media">
+                            <h3>social media</h3>
+                            <p><a href="https://github.com/KonradGmur"><i class="fab fa-github"></i>
+                                <a href="https://www.linkedin.com/in/konrad-gmur-717168155/"><i class="fab fa-linkedin"></i></a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+       <p> &copy; 2020 Konrad Gmur </p>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+    <script src="/js/animation.js"></script>
+    <script src="/js/jquery.waypoints.min"></script>
+    <script src="slick/slick.min.js"></script>
+    <script src="/js/main.js"></script>
+    <script src="https://kit.fontawesome.com/c664494976.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
