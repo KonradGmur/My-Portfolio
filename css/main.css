@@ -253,6 +253,9 @@ header .fa-chevron-down {
   font-size: 48px;
   color: #ce2406;
 }
+#skills i&hover {
+  color: #F87328;
+}
 
 #skills .achievement-number {
   font-size: 22px;
