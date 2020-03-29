@@ -253,7 +253,7 @@ header .fa-chevron-down {
   font-size: 48px;
   color: #ce2406;
 }
-#skills i&hover {
+#skills i &hover {
   color: #F87328;
 }
 
